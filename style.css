@@ -1,0 +1,42 @@
+   /* Part One Styles */
+
+            h1{
+                text-indent: 1cm;
+                color: red;
+                font-style: italic;
+            }
+
+            h2{
+                font-family: 'Courier';
+                color: green;
+                font-weight: bold;
+            }
+
+            /*Style For Image (126x121) */
+            img{
+                width: 126;
+                height: 121;
+            }
+
+            /* Style for table */
+            table {
+                border-collapse: collapse;
+                width:100%;
+
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 1px;
+            }
+
+            /*Style For Part Three (list) */
+            #mylist{
+                background-color: yellow;
+                border: 2px red solid;
+            }
+
+            /*Style for Form*/
+            form{
+                text-align: center;
+            }
+            
