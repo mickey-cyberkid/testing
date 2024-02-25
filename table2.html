@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accessibility Design Tools</title>
+        <!-- Adding our CSS stylesheet-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <body>
+            <!-- Part One -->
+            <!-- Headings Here-->
+            <h2>Accessibility Site Design Guide</h2>
+            <h1>Accessibility Design Tools</h1>
+            <!-- Horizontal Line (hr)-->
+            <hr/>
+
+            <!-- Part Two (Adding Table)-->
+            <div>
+                <table>
+                    <tr>
+                            <th colspan="2">Accessibility Design Tools</th>
+                            <th>Tools</th>
+                    
+                    </tr>
+                    <tr>
+                        <td  rowspan="4"><a href="https://www.google.com"><img src="logo.png" alt="Image in table"></a></td>
+                        <td rowspan="2">Item Two</td>
+                        <td>Item Three</td>
+
+                    </tr>
+                    <tr>
+                        <td>Item four</td>
+                        
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Item Six</td>
+                        <td>Item Seven</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Item Eight</td>
+                        
+                    </tr>
+                    <tr><td colspan="3">ENDING</td></tr>
+
+                </table>
+            </div><br/>
+
+            <!-- Part Three (Adding Lists)-->
+            <div id="mylist">
+                <!-- Description List (dl)-->
+                <!-- In the question it was (definition list) same term -->
+                <dl>
+                    <dt>First Description</dt>
+                    <dd>Text Describing Stuff Here</dd>
+                    <dd>
+                        <ul>
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Second Description</dt>
+                    <dd>Text Describing Stuff Here</dd>
+                    <dd>
+                        <ul>
+                            <li>Item One</li>
+                            <li>Item Two</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <!-- Part Four (Feed Back Form)-->
+            <form>
+                <p>Do you find the information useful ? </p>
+                <label for="Occupation">Your Occupation: </label>
+                <input type="text" id="Occupation">
+                <p>
+                    Your reply : <input type="radio" name="feedback" checked>Option One
+                    <input type="radio" name="feedback">Option Two
+                </p>
+            </form>
+        </body>
+    </head>
+</html>
